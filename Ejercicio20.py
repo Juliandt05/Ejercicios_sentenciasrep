@@ -1,8 +1,8 @@
 Vnum=[]
 num_pri=0
-contador=5
 i=2
-numerodeprim=int(input("Dime un número "))
+numerodeprim=int(input("Dime el número de números primos que quieres imprimir por pantalla "))
+contador=numerodeprim
 
 def numero_primo(numero):
     num_primo=0
