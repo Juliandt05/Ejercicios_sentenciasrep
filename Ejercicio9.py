@@ -5,4 +5,4 @@ expo=int(input("Dime el exponente de la potencia"))
 
 for i in range(expo-1):
     poten*= base
-print(poten)
+print("La potencia es",poten)

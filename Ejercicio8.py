@@ -18,7 +18,7 @@ while numero!=0:
     numero=int(input("Dime un número y si introduces 0 acaba"))
     if numero>num1 and numero<num2:
         listasuma.append(numero)
-    elif numero<num1 and numero>num2:
+    elif numero<num1 or numero>num2:
         numfuera+=1
     else:
         numinter+=1

@@ -1,10 +1,8 @@
 horastot = 0
-print("Cuantos trabajadores tienes")
-tra = int(input())
-print("Cuanto cobras por hora")
-dinero = int(input())
+tra = int(input("Cuantos trabajadores tiene la empresa"))
+dinero = int(input("Cuanto cobra cada hora"))
 for x in range(1,7):
-    print("Cuántas horas has trabajado")
+    print("Cuántas horas ha trabajado hoy")
     horas = int(input())
     horastotales = horas + horastotales
 print("El sueldo de los", tra,"son de",horastotales*dinero,"en total")

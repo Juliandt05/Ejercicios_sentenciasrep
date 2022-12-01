@@ -1,6 +1,6 @@
 letra=str
 while letra!=" ":
-    letra=str(input("Dime un caracter en minuscula"))
+    letra=str(input("Dime un caracter en minuscula")).lower()
     if letra=="a"or letra=="e"or letra=="i"or letra=="o"or letra=="u":
         print("Vocal")
     else:

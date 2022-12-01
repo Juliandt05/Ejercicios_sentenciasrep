@@ -1,6 +1,6 @@
 
 num_primo=0
-numero=int(input("Dime un número"))
+numero=int(input("Dime un número "))
 for i in range (2,numero):
     if numero%i==0:
         num_primo+=1
